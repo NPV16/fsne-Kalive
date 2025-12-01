@@ -9,12 +9,12 @@ mkdir -p app/idx-keepalive
 cd app/idx-keepalive
 
 # 3. download keepalive scripts & install dependencies
-wget https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google-idx/keepalive/app.js
-wget https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google-idx/keepalive/package.json
+wget https://raw.githubusercontent.com/justlagom/fsne-Kalive/refs/heads/main/FirebaseStudio/keepalive/app.js
+wget https://raw.githubusercontent.com/justlagom/fsne-Kalive/refs/heads/main/FirebaseStudio/keepalive/package.json
 npm install
 
 # 4. create startup.sh
-wget https://raw.githubusercontent.com/vevc/one-node/refs/heads/main/google-idx/keepalive/startup.sh
+wget https://raw.githubusercontent.com/justlagom/fsne-Kalive/refs/heads/main/FirebaseStudio/keepalive/startup.sh
 sed -i 's#$PWD#'$PWD'#g' startup.sh
 chmod +x startup.sh
 
