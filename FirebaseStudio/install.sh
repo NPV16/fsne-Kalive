@@ -111,7 +111,7 @@ cd -
 echo ">>> 7. 创建 startup.sh..."
 
 # 7.1. 下载主启动脚本模板
-wget -O startup.sh $REPO_BASE/startup-master-template.sh 
+wget -O startup.sh $REPO_BASE/startup-master.sh 
 
 # 7.2. 替换启动脚本中的动态路径和变量
 # 使用 # 作为 sed 分隔符
