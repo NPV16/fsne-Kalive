@@ -8,7 +8,7 @@ cd app/argo
 
 # 2. download cloudflared
 if [ ! -f cloudflared ]; then
-  wget -O cloudflared https://github.com/cloudflare/cloudflared/releases/download/2025.9.0/cloudflared-linux-amd64
+  wget -O cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
   chmod +x cloudflared
 fi
 
