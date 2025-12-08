@@ -5,7 +5,7 @@
   "inbounds": [
        {
       "listen": null,
-      "port": 8001,
+      "port": $PORT_XRAY_INTERNAL,
       "protocol": "vless",
       "settings": {
         "clients": [
