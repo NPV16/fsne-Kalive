@@ -28,7 +28,7 @@
     },
     {
       "listen": null,
-      "port": 8090,
+      "port": 8001,
       "protocol": "vless",
       "settings": {
         "decryption": "none",
