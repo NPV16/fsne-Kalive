@@ -11,7 +11,7 @@
         "clients": [
           {
             "flow": "xtls-rprx-vision",
-            "id": "b3a053a4-062e-49fd-f98f-b6014dd7d4a9"
+            "id": "自定义UUID"
           }
         ],
         "decryption": "mlkem768x25519plus.native.600s.IASRX3nSekp4w75a13lfrUlfcPkigvk39yETGzU3gHc",
@@ -24,7 +24,7 @@
         "xhttpSettings": {
           "host": "",
           "mode": "auto",
-          "path": "/b3a053a4"
+          "path": "自定义路径"
         }
       }
     }
