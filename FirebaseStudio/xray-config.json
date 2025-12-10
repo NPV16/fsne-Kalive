@@ -3,27 +3,26 @@
     "loglevel": "warning"
   },
   "inbounds": [
-       {
+    {
       "listen": null,
-      "port": $PORT_XRAY_INTERNAL,
+      "port": 8090,
       "protocol": "vless",
       "settings": {
+        "decryption": "none",
         "clients": [
           {
             "flow": "xtls-rprx-vision",
-            "id": "$UUID"
+            "id": "b3a053a4-062e-49fd-f98f-b6014dd7d4a9"
           }
-        ],
-        "decryption": "mlkem768x25519plus.native.600s.-FOjuOsx5U7P0gmVgs_ErqezQYmuQa6s7HQQL3biA0g",
-        "encryption": "mlkem768x25519plus.native.0rtt.JtaCe-JndzhO-L7B-rbQU-PETl4WNh5Mw5yQ6oDR6jQ",
-        "selectedAuth": "X25519, not Post-Quantum"
+        ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "xhttp",
         "security": "none",
-        "wsSettings": {
+        "xhttpSettings": {
           "host": "",
-          "path": "$PROXY_PATH"
+          "mode": "auto",
+          "path": "/b3a053a4"
         }
       }
     }
